@@ -1,3 +1,6 @@
+[![Build](https://github.com/barakb/evaluation/actions/workflows/build.yml/badge.svg)](https://github.com/barakb/evaluation/actions/workflows/build.yml)
+[![Renovate enabled](https://img.shields.io/badge/renovate-enabled-brightgreen.svg)](https://renovatebot.com/)
+
 ### Install Rust on macOS
 Use rustup to install and manage Rust on macOS. Run the following command in the terminal: `curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh`
 
