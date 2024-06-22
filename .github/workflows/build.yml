@@ -1,0 +1,16 @@
+name: Build
+
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+      - name: Build the code
+        uses: dtolnay/rust-toolchain@stable
+      - name: Check that code can compile
+        run: cargo build
