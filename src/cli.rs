@@ -26,19 +26,4 @@ pub enum Commands {
         #[arg(short, long, default_value = "5", required = false)]
         years: u8,
     },
-    /*
-    /// List evaluations based on P/E and growth rate
-    List {
-        /// The maximum P/E ratio to consider
-        #[arg(short, long, default_value = "50")]
-        max_pe: u16,
-        /// The maximum growth rate to consider
-        #[arg(short, long, default_value = "50")]
-        max_growth: u16,
-        /// the number of years to consider for evaluation
-        #[arg(short, long, default_value = "5")]
-        years: u8,
-    },
-
-     */
 }
